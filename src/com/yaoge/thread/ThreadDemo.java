@@ -1,8 +1,7 @@
 package com.yaoge.thread;
 
 /**
- * 
- * 
+ *  
  * 
  * @author YaoGe
  *
