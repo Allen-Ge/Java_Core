@@ -1,4 +1,4 @@
-package com.yaoge.reflection;
+package com.yaoge.reflect;
 
 public class PublicClass {
 	

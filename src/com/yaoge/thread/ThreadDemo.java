@@ -1,5 +1,9 @@
 package com.yaoge.thread;
 
+
+
+
+
 /**
  *  
  * 
@@ -8,10 +12,26 @@ package com.yaoge.thread;
  */
 public class ThreadDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		Thread thread= Thread.currentThread();
-		System.out.println(thread.isInterrupted());
+		System.out.println(thread.isInterrupted());		
+		
+	}	
+	
+	
+	
+	
+}
+
+class OuterClass{
+	
+	class InnerClass{
+		
+		public void test(){
+			
+		}
 	}
+	
 }
 
 class MyThread implements Runnable{

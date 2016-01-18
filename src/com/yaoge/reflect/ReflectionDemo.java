@@ -1,4 +1,4 @@
-package com.yaoge.reflection;
+package com.yaoge.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
